@@ -182,7 +182,7 @@
                 const probabilityCell = document.createElement('td');
 
                 xCell.textContent = entry.x;
-                probabilityCell.textContent = entry.y.toFixed(decimalPlaces);
+                probabilityCell.textContent = entry.y.toExponential(decimalPlaces);
 
                 row.appendChild(xCell);
                 row.appendChild(probabilityCell);
@@ -283,7 +283,7 @@
 
         function getDecimalPlaces() {
             const decimalPlacesInput = document.getElementById('decimal-places');
-            return parseInt(decimalPlacesInput.value) || 4;
+            return parseInt(decimalPlacesInput.value) || 3;
         }
 
         function updateDecimalPlaces() {
