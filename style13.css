@@ -27,11 +27,11 @@ header h1 {
 }
 
 #simulation-section {
-    flex: 1 1 calc(50% - 10px); /* Уменьшил ширину секции симуляции и убрал отступ */
+    flex: 1 1 calc(50% - 10px); 
 }
 
 #distribution-table-section {
-    flex: 0 1 calc(60% - 20px); /* Уменьшил ширину секции таблицы и убрал отступ */
+    flex: 0 1 calc(60% - 20px); 
     max-width: 150px;
 }
 
@@ -60,9 +60,9 @@ th {
 }
 
 #hypergeometric-chart {
-    width: 20%; /* Установил ширину графика в 100% */
-    max-width: 600px; /* Установил максимальную ширину графика (можно изменить на нужное значение) */
-    height: auto; /* Автоматическая высота для поддержки соотношения сторон */
+    width: 20%; 
+    max-width: 600px; 
+    height: auto; 
 }
 
 #output {
@@ -98,7 +98,7 @@ input, select {
 }
 
 #hypergeometric-form input {
-    width: 100px; /* Set a fixed width (adjust as needed) */
+    width: 100px; 
 }
 
 button {
