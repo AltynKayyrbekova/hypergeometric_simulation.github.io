@@ -194,7 +194,7 @@
                 window.myHypergeometricChart.destroy();
             }
 
-            const chartType = 'scatter';
+            const chartType = 'bar';
 
             const maxProbability = Math.max(...data.map(entry => entry.y));
             const yAxisMax = Math.min(maxProbability + 0.01, 1);
@@ -249,6 +249,7 @@
                         }
                     },
                     indexAxis: 'x',
+                    barPercentage: 0.1
                 }
             });
         }
